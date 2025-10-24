@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 0.3px white solid ;
+    
+   
+    
+}
+nav img{
+    width: 90px;
+    padding-left: 20px;
+}
+nav a{
+    color: rgba(255, 255, 255, 0.608);
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav a:hover{
+     color: rgb(234, 235, 237);
+     font-size: 20px;
+}
+nav .icon{
+    padding: 0 40px;
+    
+   
+   
+}
+hr{
+    opacity: 50%;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+ }
+ .main{
+    max-width: 500px;
+    margin: 30px;
+    margin-top: 250px;
+    margin-left: 60px;
+ }
+ header img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+ }
+ .main h1{
+    margin-bottom: 10px;
+
+ }
+ .main p{
+    margin-bottom: 20px;
+    opacity: 70%;
+    
+ }
+ .main a{
+    background-color: rgb(148, 81, 81);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 2s ease-in-out;
+    width: 150px;
+   
+ }
+ .main a:hover{
+    width: 90%;
+    text-align: center;
+    box-shadow: 5px 4px 5px 6px blue;
+    background-color: green;
+ }
+ ::selection{
+    background-color: rgb(13, 228, 45);
+    color: black;
+ }
+ 
+.title{
+    text-align: center;
+  
+    color: white;
+    position: relative;
+    top: 400px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 30px;
+} 
+.title span{
+    color: rgb(141, 124, 100);
+    font-size: 30px;
+    
+}
+.art1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 400px;
+    color: white;
+    width: 100%;
+}
+.art1 img{
+    width: 650px;
+    opacity: 40%;
+    max-width: 50%;
+}
+.art1 div{
+    max-width: 60%;
+   margin-right: 60px;
+}
+.art1 div h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.art1 div .pp{
+    margin: 15px 0px;
+    opacity: 50%;
+}
+.art1 div p{
+    margin-top: 20px;
+    opacity: 50%;
+    margin-bottom: 40px;
+  
+}
+.art1 div a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(148, 81, 81);
+    border-radius: 15px;
+    display: inline-block;
+    transition: all 2s ease-in-out;
+    width: 150px;
+   height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+ 
+ 
+  
+}
+ .art1 div a:hover{
+    width: 90%;
+    text-align: center;
+    box-shadow: 5px 4px 5px 6px blue;
+    background-color: green;
+    padding-left: 40%;
+ }
+ .men{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 400px;
+   padding-right: 10px;
+   font-size: 15px;
+   margin-bottom: 100px;
+ }
+ .men span{
+    color:  rgb(141, 124, 100);
+    font-size: 30px;
+ }
+
+.se1{
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center ;
+    align-items: center;
+  position: relative;
+  top: 400px;
+  margin: 0 90px;
+  
+
+    
+
+}
+
+.ar1 img{
+    width: 200px;
+    height: 200px;
+    
+}
+.ar1{
+    margin: 0 10px;
+    background-color: rgb(12, 12, 12);
+    width: 400px;
+   text-align: center;
+
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 1s linear 1s;
+}
+.ar1 button a{
+    color: white;
+    
+    width: 150px;
+    height: auto;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.ar1 h3{
+     margin-bottom: 10px;
+}
+.ar1 button{
+    width: 100px;
+    border-radius: 20px;
+    height: auto;
+    background-color: rgb(96, 50, 50);
+  
+    margin: 20px;
+}
+
+.ar1 img  {
+    pointer-events: none;
+}
+.se1 :hover{
+    background-color: white;
+    color: black;
+
+}
+.titl h2{
+    color: white;
+    text-align: center;
+    margin: 100px;
+  text-transform: uppercase;
+  font-size: 26px;
+   
+}
+.titl h2 span{
+    color:rgb(141, 124, 100) ;
+    
+}
+.section2{
+     color: white;
+   position: relative;
+   top: 500px;
+}
+
+
+.cont{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+    margin: 0 100px;
+    
+    
+}
+.content{
+
+border: 1px  solid rgba(255,255, 255, 0.2);
+     width: 400px;
+     height: 400px;
+   text-align: center;
+   margin-bottom: 10px;
+    transition: transform 2s
+}
+.ico #ico1{
+    padding: 50px 20px;
+    
+}
+.one img{
+    margin-bottom: 20px;
+}
+.one h3{
+    margin-bottom: 10px;
+}
+.content:hover {
+  transform: rotate(360deg);
+ 
+}
+.section3{
+    position: relative;
+    top: 600px;
+}
+.titll{
+ color: white;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 22px;
+
+
+}  
+.titll span{
+  color:rgb(141, 124, 100) ;
+
+}
+.pct img{
+    width: 200px;
+    
+}
+
+.content2{
+   
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    margin: 50px 60px;
+    color: white;
+}
+.like{
+   
+    padding: 30px;
+    width: 400px;
+    border: 1px solid rgba(255,255, 255, 0.3);
+}
+.two{
+   text-align: center;
+}
+.two i{
+    margin-bottom: 40px;
+    font-size: 50px;
+    padding-left: 20px;
+     color:rgb(141, 124, 100) ;
+}
+.pct{
+ text-align: center;   
+ margin-top: 40px; 
+
+}
+.pct img{
+    height: 200px;
+    width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+
+}
+.fod{
+    position: relative;
+    top: 600px;
+}
+
+
+.fod {
+  position: relative;
+  top: 600px;
+}
+
+
+.co {
+  text-align: center;
+  margin: 50px;
+  color: white;
+}
+.co span {
+  color: rgb(141, 124, 100);
+  text-transform: uppercase;
+}
+
+
+.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; 
+  flex-wrap: wrap; 
+}
+
+
+.location iframe {
+  width: 550px;
+  height: 450px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+.location iframe:hover {
+  transform: scale(1.03) rotate(-1deg);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+
+.input {
+  background-color: rgb(68, 46, 46);
+  width: 550px;
+  height: 450px;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.input:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.input input {
+  font-size: 18px;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+
+.inp,
+.inpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.inp i,
+.inpp i {
+  color: white;
+  font-size: 22px;
+}
+
+input[type="submit"] {
+  background-color: rgb(141, 124, 100);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+}
+input[type="submit"]:hover {
+  background-color: rgb(190, 160, 130);
+}
